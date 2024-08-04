@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-//import HelloWorld from './components/HelloWorld.vue'
+import "./assets/main.css"
 import Button from "./components/Button.vue"
 </script>
 
@@ -8,16 +8,12 @@ import Button from "./components/Button.vue"
   <header>
     
 
-    <div class="wrapper">
-      
-      
-      
-    </div>
-    </header>
+
+  </header>
     
   <main>
 
-    <Button val="dadea"></Button>
+    <Button></Button>
 
 
   </main>
