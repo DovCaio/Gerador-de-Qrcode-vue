@@ -1,22 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import "./assets/main.css"
-import Button from "./components/Button.vue"
+
+import Header from "./components/Header.vue"
+import Footer from "./components/Footer.vue"
 </script>
 
 <template>
-  <header>
+  <Header></Header>
     
+  <RouterView/>
 
 
-  </header>
-    
-  <main>
-
-    <Button></Button>
+  <Footer>
 
 
-  </main>
+
+  </Footer>
 
 </template>
 

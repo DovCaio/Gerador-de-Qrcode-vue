@@ -1,0 +1,40 @@
+
+
+.header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: auto 5px;
+    
+    font-size: 1.5em;
+
+}
+
+.header nav {
+
+    margin: auto 5px;
+
+}
+
+.header nav {
+
+    color: #fff;
+    
+}
+
+.header nav ul{ 
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.header nav ul li{
+
+    margin: 0 5px;
+
+}
