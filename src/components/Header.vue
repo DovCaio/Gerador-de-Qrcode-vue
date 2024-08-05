@@ -6,7 +6,7 @@
 
 <template>
 
-    <header class="header bg-gray-600 ">
+    <header class="header  ">
 
         <h1 class="text-white font-bold"><RouterLink to="/">QrCodeGenerator</RouterLink></h1>
 
