@@ -4,8 +4,8 @@
 
 <template>
   <main class="home">
-    <section class="qrCodeSec text-wrap p-4">
-      <h2 class="text-xl my-3 font-bold ">What is a qrcode</h2>
+    <section class="qrCodeSec text-wrap p-4 ">
+      <h2 class="text-xl my-3 font-bold text-gray-600">What is a qrcode</h2>
 
       <p>
         A QR code (Quick Response code) is a type of two-dimensional barcode that can store a variety of data, such as URLs, text, contact information, and more. It consists of black squares arranged on a white background, forming a unique pattern that can be
@@ -13,15 +13,15 @@
       </p>
     </section>
 
-    <section class="qrcodeImg">
+    <aside class="qrcodeImg">
 
       <img src="../../public/qr-code.png" alt="">
         
 
-    </section>
+    </aside>
 
     <section class="howQrCode text-wrap p-4">
-      <h2 class="text-xl my-3 font-bold">How its work</h2>
+      <h2 class="text-xl my-3 font-bold text-gray-600">How its work</h2>
       <p>
         A QR code generator is a fascinating and highly useful tool that has become integral in various aspects of modern life, from marketing to personal use. At its core, a QR code generator works by encoding data into a two-dimensional barcode that can be
         easily scanned and read by a smartphone or other QR code reader devices. This process might seem complex , but it involves several straightforward steps that ensure the QR code can be efficiently created and accurately read.
