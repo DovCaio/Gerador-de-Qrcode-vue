@@ -37,7 +37,8 @@
 
     const generateQrCode =  (async () => {
         
-        qrcode.value = await Qrcode.toString(inputvalue.value, {width: width.v}).then(value => value)
+        qrcode.value = await Qrcode.toString(inputvalue.value, {width: width.v <= 600 ? width.v : 370})
+                                    .then(value => value)
         
 
     })

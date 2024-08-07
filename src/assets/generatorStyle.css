@@ -44,6 +44,19 @@
 
 }
 
+#widthChoice{ 
+
+    width: 20%;
+    align-self: flex-start;
+
+}
+
+label[for="widthChoice"] {
+
+    text-align: start;
+
+}
+
 @media (max-width: 608px){
 
     .generator{
